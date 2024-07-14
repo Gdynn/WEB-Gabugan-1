@@ -1,0 +1,12 @@
+.img-kamar {
+    max-width: 250px;
+}
+
+.btn-hapus-kamar {
+    margin-right: 10px;
+}
+
+.custom-img {
+    height: 350px; /* Adjust the height as needed */
+    object-fit: cover;
+}
