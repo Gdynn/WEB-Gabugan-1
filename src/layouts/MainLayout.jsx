@@ -19,10 +19,6 @@ const routes = [
         path: "/wisata",
         name: "Wisata",
     },
-    {
-        path: "/login",
-        name: "Admin Login",
-    },
 ];
 
 /* eslint-disable react/prop-types */

@@ -4,9 +4,6 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import ImageCarousel from "../components/ImageCarousel";
 
 // import gambar
-import imgHotell from "../assets/images/hotel1.jpg";
-import imgHotel2 from "../assets/images/hotel2.jpg";
-import imgHotel3 from "../assets/images/hotel3.jpg";
 import Voli from "../assets/images/Voli.jpg";
 import Klonengan from "../assets/images/Klenengan.jpg";
 import Klonengan2 from "../assets/images/Klenengan2.jpg";
