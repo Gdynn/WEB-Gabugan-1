@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import semua halaman dan layout
 import MainLayout from "../layouts/MainLayout";
 import HomePage from "../pages/HomePage";
+import ProfilePage from "../pages/ProfilePage";
+import WisataPage from "../pages/WisataPage";
 import LoginPage from "../pages/LoginPage";
 import DashboardPage from "../pages/DashboardPage";
 
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <HomePage />,
+            },
+            {
+                path: "/profile",
+                element: <ProfilePage />,
+            },
+            {
+                path: "/wisata",
+                element: <WisataPage />,
             },
             {
                 path: "/login",

@@ -1,0 +1,16 @@
+.footer-custom {
+    background: #070031 !important;
+    color: white;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.footer-custom .text-body-secondary {
+    color: white;
+}
+
+.footer-custom a {
+    color: white;
+    text-decoration: none;
+}
+

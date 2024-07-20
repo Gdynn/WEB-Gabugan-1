@@ -7,8 +7,12 @@ import ImageCarousel from "../components/ImageCarousel";
 import imgHotell from "../assets/images/hotel1.jpg";
 import imgHotel2 from "../assets/images/hotel2.jpg";
 import imgHotel3 from "../assets/images/hotel3.jpg";
-import imgFeaturettel from "../assets/images/featurette-1.jpeg";
-import imgFeaturette2 from "../assets/images/featurette-2.jpeg";
+import Voli from "../assets/images/Voli.jpg";
+import Klonengan from "../assets/images/Klenengan.jpg";
+import Klonengan2 from "../assets/images/Klenengan2.jpg";
+import Wayang from "../assets/images/Wayang.jpg";
+import KerjaBakti from "../assets/images/KerjaBakti.jpg";
+import Sadeng from "../assets/images/Sadeng.jpg";
 
 import './Dashboard.css'
 
@@ -16,25 +20,24 @@ import './Dashboard.css'
 const images = [
     {
         img: imgHotell,
-        title: "First slide label",
-        description: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        title: "Beranda",
     },
     {
         img: imgHotel2,
-        title: "Second slide label",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        title: "Beranda",
     },
     {
         img: imgHotel3,
-        title: "Third slide label",
-        description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        title: "Beranda",
     },
 ];
 
 const HomePage = () => {
     return (
         <>
-            <ImageCarousel images={images} />
+            <div className="carousel-container mt-3">
+                <ImageCarousel images={images} />
+            </div>
             <Container className="mt-5">
                 <Row className="mb-4 justify-content-center" style={{ textAlign: "center" }}>
                     <h1 className="justify-content-center"><strong>Kegiatan</strong></h1>
@@ -42,20 +45,20 @@ const HomePage = () => {
                 <Row className="kegiatan d-flex justify-content-between">
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src={imgFeaturettel} className="img-fluid mx-auto custom-img"/>
+                            <Card.Img variant="top" src={Voli} className="img-fluid mx-auto custom-img"/>
                             <Card.Body>
                                 <Card.Title><strong>Main Voli</strong></Card.Title>
                                 <Card.Text>
-                                    Main voli tiap sore.
+                                    Kegiatan bermain voli di sore hari.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src={imgFeaturette2} className="img-fluid mx-auto custom-img"/>
+                            <Card.Img variant="top" src={Klonengan} className="img-fluid mx-auto custom-img"/>
                             <Card.Body>
-                                <Card.Title><strong>Latihan Klonengan</strong></Card.Title>
+                                <Card.Title><strong>Klonengan</strong></Card.Title>
                                 <Card.Text>
                                     Latihan klonengan rutin setiap malam rabu.
                                 </Card.Text>
@@ -64,44 +67,75 @@ const HomePage = () => {
                     </Col>
                     <Col md={4}>
                         <Card>
-                            <Card.Img variant="top" src={imgFeaturettel} className="img-fluid custom-img"/>
+                            <Card.Img variant="top" src={KerjaBakti} className="img-fluid custom-img"/>
                             <Card.Body>
-                                <Card.Title>Card title</Card.Title>
+                                <Card.Title><strong>Dusun Bersih</strong></Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
+                                    Kegiatan kerja bakti yang dilakukan satu bulan sekali.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
                 </Row>
-                <hr className="mt-5 mb-5" />
+                <Row className="mt-5 justify-content-center">
+                    <h1 className="justify-content-center"><strong>Wisata</strong></h1>
+                </Row>
+                <hr className="mt-2 mb-5" />
                 <Row>
-                    <Col md={7}>
+                    <Col md={5}>
                         <h2 className="fw-normal">
-                            Main voli.
+                            <strong>Pantai Sadeng</strong>
                         </h2>
-                        <p className="lead">
-                            Kegiatan voli setiap sore hari.
+                        <p className="lead justify-text">
+                            Pantai Sadeng di Gunung Kidul tak hanya menawarkan 
+                            panorama laut yang memesona, tetapi juga menyimpan 
+                            jejak sejarah panjang. Dahulu, Sungai Bengawan Solo 
+                            mengalir tenang hingga bermuara di pantai ini, menjadi 
+                            saksi bisu kehidupan masyarakat pesisir yang bergantung pada laut.
                         </p>
                     </Col>
+                    <Col md={2}>
+                    </Col>
                     <Col md={5}>
-                        <img src={imgFeaturettel} className="img-fluid mx-auto rounded shadow custom-img" role="img" aria-label="Gambar featurette1" />
+                        <img src={Sadeng} className="img-fluid mx-auto rounded shadow custom-img" role="img" aria-label="Gambar featurette1" />
                     </Col>
                 </Row>
                 <hr className="mt-5 mb-5" />
                 <Row>
-                    <Col md={7} className="order-md-2">
+                    <Col md={5} className="order-md-2">
                         <h2 className="fw-normal">
-                            <strong>Latihan Klonengan.</strong>
+                            <strong>Wayangan</strong>
                         </h2>
-                        <p className="lead">
-                            Kegiatan rutin pelatihan klonengan setiap malam rabu.
+                        <p className="lead justify-text">
+                            Di Desa Gabugan, wayang bukan sekadar pertunjukan 
+                            seni, tetapi sebuah perjalanan spiritual yang menceritakan 
+                            kisah kehidupan manusia dari lahir hingga kembali kepada 
+                            Sang Pencipta. Pertunjukan ini biasanya diadakan pada malam 
+                            bulan Suro, momen suci yang penuh makna.
                         </p> 
                     </Col>
-                    <Col md={5} className="order-md-1">
-                        <img src={imgFeaturette2} className="img-fluid mx-auto rounded shadow custom-img" role="img" aria-label="Gambar featurette2" />
+                    <Col md={7} className="order-md-1">
+                        <img src={Wayang} className="img-fluid mx-auto rounded shadow custom-img" role="img" aria-label="Gambar featurette2" />
+                    </Col>
+                </Row>
+                <hr className="mt-5 mb-5" />
+                <Row>
+                    <Col md={5}>
+                        <h2 className="fw-normal">
+                            <strong>Klonengan</strong>
+                        </h2>
+                        <p className="lead justify-text">
+                        Klenengan di Desa Gabugan I, Gunung Kidul, tak hanya 
+                        menghadirkan hiburan, tetapi juga warisan budaya yang 
+                        sarat makna. Alunan merdu gamelan, harmonisasi suara, 
+                        dan pertunjukan yang penuh makna menjadi daya tarik bagi 
+                        para pecintanya.
+                        </p>
+                    </Col>
+                    <Col md={2}>
+                    </Col>
+                    <Col md={5}>
+                        <img src={Klonengan2} className="img-fluid mx-auto rounded shadow custom-img" role="img" aria-label="Gambar featurette1" />
                     </Col>
                 </Row>
                 <hr className="mt-5 mb-5" />

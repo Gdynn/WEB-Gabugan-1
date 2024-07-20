@@ -1,14 +1,15 @@
 import { Carousel } from "react-bootstrap";
+import '/src/pages/Dashboard.css';
+
 /* eslint-disable react/prop-types */
 const ImageCarousel = ({ images }) => {
     return (
         <Carousel>
             {images?.map((image, index) => (
-                <Carousel.Item key={index}>
+                <Carousel.Item key={index} style={{borderRadius:"25px"}}>
                     <img className="d-block w-100" src={image.img} alt={image.title} />
                     <Carousel.Caption>
-                        <h3 className="d-none d-md-block">{image.title}</h3>
-                        <p className="d-none d-md-block">{image.description}</p>
+                        <h1 className="d-none d-md-block ">{image.title}</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}
