@@ -13,21 +13,23 @@ import Klonengan2 from "../assets/images/Klenengan2.jpg";
 import Wayang from "../assets/images/Wayang.jpg";
 import KerjaBakti from "../assets/images/KerjaBakti.jpg";
 import Sadeng from "../assets/images/Sadeng.jpg";
+import Sekolah from "../assets/images/Sekolah.jpg";
+import Pertigaan from "../assets/images/Pertigaan.jpg";
 
 import './Dashboard.css'
 
 // gambar yang akan ditampilkan di carousel
 const images = [
     {
-        img: imgHotell,
+        img: Sadeng,
         title: "Beranda",
     },
     {
-        img: imgHotel2,
+        img: Pertigaan,
         title: "Beranda",
     },
     {
-        img: imgHotel3,
+        img: Sekolah,
         title: "Beranda",
     },
 ];
