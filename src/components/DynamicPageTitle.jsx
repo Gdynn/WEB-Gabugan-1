@@ -8,8 +8,6 @@ const DynamicPageTitle = () => {
         switch (path) {
             case "/":
                 return "HomePage";
-            case "/login":
-                return "LoginPage";
             case "/profile":
                 return "ProfilePage"; 
             case "/wisata":

@@ -43,7 +43,6 @@ const MainLayout = ({ children }) => {
                         <a href="https://maps.app.goo.gl/uv2MWwShEbP7EGnH6?g_st=iw"><FontAwesomeIcon icon={faLocationDot} /> https://maps.app.goo.gl/uv2MWwShEbP7EGnH6?g_st=iw</a>
                     </Row>
                     <Row className="col-md-4 d-flex align-items-center mt-5">
-                        {/* <span className="mb-3 mb-md- text-body-secondary" style={{color:"white"}}>© KKN 73 UAJY 2024</span> */}
                         <p>© KKN 73 UAJY 2024</p>
                     </Row>
                 </Container>
