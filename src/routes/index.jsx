@@ -7,8 +7,6 @@ import MainLayout from "../layouts/MainLayout";
 import HomePage from "../pages/HomePage";
 import ProfilePage from "../pages/ProfilePage";
 import WisataPage from "../pages/WisataPage";
-import LoginPage from "../pages/LoginPage";
-import DashboardPage from "../pages/DashboardPage";
 
 //membuat router
 const router = createBrowserRouter([
@@ -31,14 +29,6 @@ const router = createBrowserRouter([
             {
                 path: "/wisata",
                 element: <WisataPage />,
-            },
-            {
-                path: "/login",
-                element: <LoginPage />,
-            },
-            {
-                path: "/dashboard",
-                element: <DashboardPage />,
             },
         ],
     },

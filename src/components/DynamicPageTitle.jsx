@@ -10,8 +10,6 @@ const DynamicPageTitle = () => {
                 return "HomePage";
             case "/login":
                 return "LoginPage";
-            case "/dashboard":
-                return "DashboardPage"; 
             case "/profile":
                 return "ProfilePage"; 
             case "/wisata":
