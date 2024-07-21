@@ -14,3 +14,15 @@
     text-decoration: none;
 }
 
+.gmaps {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+/* Add responsive padding adjustment */
+@media (max-width: 768px) {
+    .footer-custom {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

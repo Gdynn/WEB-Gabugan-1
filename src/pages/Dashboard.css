@@ -22,13 +22,29 @@ h1, h2, h3, h4, h5, h6, p, a, button, div {
 }
 
 .profil-img {
-    height: 350px;
+    height: 500px;
     object-fit: fill;
+}
+
+.wisata-img {
+    max-height: 300px;
+    object-fit: cover;
 }
 
 .carousel-container {
     border-left: 8rem solid white;
     border-right: 8rem solid white;
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        border-left: 1rem solid white;
+        border-right: 1rem solid white;
+    }
+
+    .carousel-item img {
+        filter: brightness(100%);
+    }
 }
 
 .carousel-container img,

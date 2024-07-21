@@ -4,25 +4,24 @@ import { Container, Row, Card } from "react-bootstrap";
 import ImageCarousel from "../components/ImageCarousel";
 
 // import gambar
-import imgHotell from "../assets/images/hotel1.jpg";
-import imgHotel2 from "../assets/images/hotel2.jpg";
-import imgHotel3 from "../assets/images/hotel3.jpg";
-
 import Sadeng from "../assets/images/Sadeng.jpg";
+import Sekolah from "../assets/images/Sekolah.jpg";
+import Pertigaan from "../assets/images/Pertigaan.jpg";
+import Balai from "../assets/images/Balai.jpg";
 
 import './Dashboard.css';
 
 const images = [
     {
-        img: imgHotell,
+        img: Sadeng,
         title: "Profil",
     },
     {
-        img: imgHotel2,
+        img: Pertigaan,
         title: "Profil",
     },
     {
-        img: imgHotel3,
+        img: Sekolah,
         title: "Profil",
     },
 ];
@@ -78,7 +77,14 @@ const ProfilePage = () => {
                 <Row className="mt-5">
                     <Container>
                         <Card>
-                            <Card.Img variant="top" src={Sadeng} className="img-fluid mx-auto rounded shadow profil-img" role="img" aria-label="Gambar sadeng" />
+                            <Card.Img variant="top" src={Sekolah} className="img-fluid mx-auto rounded shadow profil-img" role="img" aria-label="Gambar sadeng" />
+                        </Card>
+                    </Container>
+                </Row>
+                <Row className="mt-5">
+                    <Container>
+                        <Card>
+                            <Card.Img variant="top" src={Balai} className="img-fluid mx-auto rounded shadow profil-img" role="img" aria-label="Gambar sadeng" />
                         </Card>
                     </Container>
                 </Row>

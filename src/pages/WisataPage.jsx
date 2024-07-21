@@ -7,25 +7,25 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import ImageCarousel from "../components/ImageCarousel";
 
 // import gambar
-import imgHotell from "../assets/images/hotel1.jpg";
-import imgHotel2 from "../assets/images/hotel2.jpg";
-import imgHotel3 from "../assets/images/hotel3.jpg";
 
 import Sadeng from "../assets/images/Sadeng.jpg";
+import Sekolah from "../assets/images/Sekolah.jpg";
+import Pertigaan from "../assets/images/Pertigaan.jpg";
+import Klonengan from "../assets/images/Klenengan.jpg";
 
 import './Dashboard.css';
 
 const images = [
     {
-        img: imgHotell,
+        img: Sadeng,
         title: "Wisata",
     },
     {
-        img: imgHotel2,
+        img: Sekolah,
         title: "Wisata",
     },
     {
-        img: imgHotel3,
+        img: Pertigaan,
         title: "Wisata",
     },
 ];
@@ -61,11 +61,11 @@ const WisataPage = () => {
                     <Container className="content-container mt-3">
                         <Row>
                             <Col md={6}>
-                                <img src={Sadeng} className="img-fluid mx-auto rounded shadow wisata-img" role="img" aria-label="Gambar sadeng" />
+                                <img src={Klonengan} className="img-fluid mx-auto rounded shadow wisata-img" role="img" aria-label="Gambar sadeng" />
                             </Col>
                             <Col md={6} className="flex-column">
                                 <h2 className="fw-normal">
-                                    <strong>Pantai Sadeng</strong>
+                                    <strong>Klonengan</strong>
                                 </h2>
                                 <p className="lead justify-text">
                                     Pantai Sadeng di Gunung Kidul tak hanya menawarkan
@@ -74,7 +74,7 @@ const WisataPage = () => {
                                     mengalir tenang hingga bermuara di pantai ini, menjadi
                                     saksi bisu kehidupan masyarakat pesisir yang bergantung pada laut.
                                 </p>
-                                <Button className="btn-primary btn-play mt-auto"><FontAwesomeIcon style={{color:"white"}} icon={faPlay} /> Tonton Video</Button>
+                                <Button href="https://www.kompasiana.com/juanpradiptaa/6694cf68c925c4176d3c0922/budaya-klenengan-di-desa-gabugan-i-menjaga-warisan-leluhur-di-kabupaten-gunung-kidul" className="btn-primary btn-play mt-auto"><FontAwesomeIcon style={{color:"white"}} icon={faPlay} /> Lihat Artikel</Button>
                             </Col>
                         </Row>
                     </Container>

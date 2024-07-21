@@ -9,7 +9,8 @@ const ImageCarousel = ({ images }) => {
                 <Carousel.Item key={index} style={{borderRadius:"25px"}}>
                     <img className="d-block w-100" src={image.img} alt={image.title} />
                     <Carousel.Caption>
-                        <h1 className="d-none d-md-block ">{image.title}</h1>
+                        <h1 className="d-none d-md-block">{image.title}</h1>
+                        <p className="d-none d-md-block">{image.description}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}

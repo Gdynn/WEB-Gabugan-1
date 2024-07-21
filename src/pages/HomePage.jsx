@@ -19,15 +19,18 @@ import './Dashboard.css'
 const images = [
     {
         img: Sadeng,
-        title: "Beranda",
+        title: "Padukuhan Gabugan 1",
+        description: "Kecamatan Girisubo, Kabupaten Gunung Kidul"
     },
     {
         img: Pertigaan,
-        title: "Beranda",
+        title: "Padukuhan Gabugan 1",
+        description: "Kecamatan Girisubo, Kabupaten Gunung Kidul"
     },
     {
         img: Sekolah,
-        title: "Beranda",
+        title: "Padukuhan Gabugan 1",
+        description: "Kecamatan Girisubo, Kabupaten Gunung Kidul"
     },
 ];
 
@@ -135,28 +138,6 @@ const HomePage = () => {
                     </Col>
                     <Col md={5}>
                         <img src={Klonengan2} className="img-fluid mx-auto rounded shadow custom-img" role="img" aria-label="Gambar featurette1" />
-                    </Col>
-                </Row>
-                <hr className="mt-5 mb-5" />
-                <Row>
-                    <Col md={7}>
-                        <h2 className="fw-normal">
-                            <strong>Video Kegiatan</strong>
-                        </h2>
-                        <p className="lead">
-                            Berikut adalah video kegiatan kami.
-                        </p>
-                    </Col>
-                    <Col md={5}>
-                        <Card>
-                            <Card.Img variant="top" src="https://img.youtube.com/vi/EhGI1cfOLwc/hqdefault.jpg" className="img-fluid mx-auto custom-img"/>
-                            <Card.Body>
-                                <Card.Title><strong>Video Kegiatan</strong></Card.Title>
-                                <Card.Text>
-                                    <a href="https://youtu.be/EhGI1cfOLwc?si=-GsfR3iGFCLX9FC4" target="_blank" rel="noopener noreferrer">Tonton Video</a>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
                     </Col>
                 </Row>
             </Container>
