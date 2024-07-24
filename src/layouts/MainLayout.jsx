@@ -43,7 +43,7 @@ const MainLayout = ({ children }) => {
                         <a href="https://maps.app.goo.gl/uv2MWwShEbP7EGnH6?g_st=iw"><img className="gmaps" src={Gmaps} alt="Gmaps" /> https://maps.app.goo.gl/uv2MWwShEbP7EGnH6?g_st=iw</a>
                     </Row>
                     <Row className="col-md-4 d-flex align-items-center mt-5">
-                        <p>© KKN 73 UAJY 2024</p>
+                        <p>© KKN 85 Kelompok 73 UAJY 2024</p>
                     </Row>
                 </Container>
             </footer>

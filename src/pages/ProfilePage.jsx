@@ -69,7 +69,7 @@ const ProfilePage = () => {
                     <h1 className="justify-content-center" style={{ fontWeight: "bolder" }}>Rukun Warga</h1>
                 </Row>
                 <Row className="mt-5 justify-content-center" style={{ textAlign: "center" }}>
-                    <h1 className="justify-content-center" style={{ fontWeight: "bolder" }}>?</h1>
+                    <h1 className="justify-content-center" style={{ fontWeight: "bolder" }}>87</h1>
                 </Row>
                 <Row className="justify-content-center" style={{ textAlign: "center" }}>
                     <h1 className="justify-content-center" style={{ fontWeight: "bolder" }}>Kartu Keluarga</h1>

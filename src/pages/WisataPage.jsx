@@ -54,7 +54,7 @@ const WisataPage = () => {
                                     mengalir tenang hingga bermuara di pantai ini, menjadi
                                     saksi bisu kehidupan masyarakat pesisir yang bergantung pada laut.
                                 </p>
-                                <Button className="btn-primary btn-play mt-auto"><FontAwesomeIcon style={{color:"white"}} icon={faPlay} /> Tonton Video</Button>
+                                <Button href="https://youtu.be/MFJQRE-6-yA?si=ir-8nJOqmLtxh8ri" className="btn-primary btn-play mt-auto"><FontAwesomeIcon style={{ color: "white" }} icon={faPlay} /> Tonton Video</Button>
                             </Col>
                         </Row>
                     </Container>
@@ -68,13 +68,13 @@ const WisataPage = () => {
                                     <strong>Klonengan</strong>
                                 </h2>
                                 <p className="lead justify-text">
-                                    Pantai Sadeng di Gunung Kidul tak hanya menawarkan
-                                    panorama laut yang memesona, tetapi juga menyimpan
-                                    jejak sejarah panjang. Dahulu, Sungai Bengawan Solo
-                                    mengalir tenang hingga bermuara di pantai ini, menjadi
-                                    saksi bisu kehidupan masyarakat pesisir yang bergantung pada laut.
+                                    Klenengan di Desa Gabugan I, Gunung Kidul, tak hanya
+                                    menghadirkan hiburan, tetapi juga warisan budaya yang
+                                    sarat makna. Alunan merdu gamelan, harmonisasi suara,
+                                    dan pertunjukan yang penuh makna menjadi daya tarik bagi
+                                    para pecintanya.
                                 </p>
-                                <Button href="https://www.kompasiana.com/juanpradiptaa/6694cf68c925c4176d3c0922/budaya-klenengan-di-desa-gabugan-i-menjaga-warisan-leluhur-di-kabupaten-gunung-kidul" className="btn-primary btn-play mt-auto"><FontAwesomeIcon style={{color:"white"}} icon={faPlay} /> Lihat Artikel</Button>
+                                <Button href="https://www.kompasiana.com/juanpradiptaa/6694cf68c925c4176d3c0922/budaya-klenengan-di-desa-gabugan-i-menjaga-warisan-leluhur-di-kabupaten-gunung-kidul" className="btn-primary btn-play mt-auto"><FontAwesomeIcon style={{ color: "white" }} icon={faPlay} /> Lihat Artikel</Button>
                             </Col>
                         </Row>
                     </Container>

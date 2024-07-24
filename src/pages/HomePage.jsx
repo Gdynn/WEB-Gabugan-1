@@ -1,7 +1,7 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 // import component
-import ImageCarousel from "../components/ImageCarousel";
+import ImageCarouselHome from "../components/ImageCarouselHome";
 
 // import gambar
 import Voli from "../assets/images/Voli.jpg";
@@ -38,7 +38,7 @@ const HomePage = () => {
     return (
         <>
             <div className="carousel-container mt-3">
-                <ImageCarousel images={images} />
+                <ImageCarouselHome images={images} />
             </div>
             <Container className="mt-5">
                 <Row className="mb-4 justify-content-center" style={{ textAlign: "center" }}>
@@ -57,8 +57,8 @@ const HomePage = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card>
-                            <Card.Img variant="top" src={Klonengan} className="img-fluid mx-auto custom-img"/>
+                        <Card className="hp-content">
+                            <Card.Img variant="top" src={Klonengan} className="img-fluid mx-auto custom-img "/>
                             <Card.Body>
                                 <Card.Title><strong>Klonengan</strong></Card.Title>
                                 <Card.Text>
@@ -68,8 +68,8 @@ const HomePage = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card>
-                            <Card.Img variant="top" src={KerjaBakti} className="img-fluid custom-img"/>
+                        <Card className="hp-content">
+                            <Card.Img variant="top" src={KerjaBakti} className="img-fluid custom-img "/>
                             <Card.Body>
                                 <Card.Title><strong>Dusun Bersih</strong></Card.Title>
                                 <Card.Text>
